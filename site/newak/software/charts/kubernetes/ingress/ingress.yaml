@@ -14,18 +14,6 @@ metadata:
       - method: merge
         path: .
   storagePolicy: cleartext
-  substitutions:
-    - src:
-        schema: pegleg/CommonAddresses/v1
-        name: common-addresses
-        path: .vip.ingress_vip
-      dest:
-        path: .values.network.vip.addr
-data:
-  values:
-    network:
-      ingress:
-        disable-ipv6: "true"
-      vip:
-        manage: true
+data: {}
 ...
+
