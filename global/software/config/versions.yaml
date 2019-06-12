@@ -613,7 +613,7 @@ data:
     ucp:
       armada:
        # api: quay.io/airshipit/armada:fe8ad58605d59d0b778b1bb60272e172699aab97
-        api: quay.io/airshipit/armada:65e292b93eab36dac7fb2a8614797a2d71fc6020	
+        api: quay.io/airshipit/armada:65e292b93eab36dac7fb2a8614797a2d71fc6020
         helm: docker.io/lachlanevenson/k8s-helm:v2.13.1
         tiller: gcr.io/kubernetes-helm/tiller:v2.13.1
       barbican: {}
